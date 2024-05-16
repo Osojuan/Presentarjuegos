@@ -28,13 +28,13 @@
                                 <div class="mb-3">
 
                                     <label class="mb-2 text-muted" for="email">CURP</label>
-                                    <input id="curp" type="text" class="form-control" name="curp" value="" required autofocus>
+                                    <input id="curp" type="text" class="form-control" name="curp" pattern="[A-Z0-9 ]{18} " value="" required autofocus>
                                 </div>
 
-                                <div class="d-flex align-items-center">
+                                <div class=" d-flex align-items-center">
                                     <div class="form-check">
                                         <input type="checkbox" name="remember" id="remember" class="form-check-input">
-                                        <label for="remember" class="form-check-label">Remember Me</label>
+
                                     </div>
                                     <button type="submit" name="btnLogin" class="button is-warning ms-auto">
                                         Login
@@ -42,12 +42,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="card-footer py-3 border-0">
-                            <div class="text-center">
-                                Don't have an account? <a href="./content/register.php" class="text-dark">Create
-                                    One</a>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="text-center mt-5 text-muted">
                         Copyright &copy; 2024 &mdash; A.L.A.D A.C.
@@ -60,10 +55,7 @@
     <audio autoplay loop>
         <source src="./audios/shrek-somebodycena.mp3" type="audio/mp3">
     </audio> -->
-    <?php
 
-    include("./db/controller.php");
-    ?>
 </body>
 
 </html>
