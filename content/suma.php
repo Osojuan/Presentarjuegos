@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
 	<h1>¡Resuelve 10 sumas en el menor tiempo posible!</h1>
 	<div class="container">
 		<div class="izquierdo">
@@ -34,7 +35,7 @@
 	<script src="../js/scriptsuma.js"></script>
 
 	<audio id="audioCorrecto" src="../audios/monedita.mpeg"></audio>
-    <audio id="audioPerdedor" src="../audios/erorrDIS.mpeg"></audio>
+	<audio id="audioPerdedor" src="../audios/erorrDIS.mpeg"></audio>
 	<audio id="audioFinal" src="../audios/mario.mpeg"></audio>
 
 

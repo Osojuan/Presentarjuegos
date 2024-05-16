@@ -14,13 +14,13 @@
 <body class="bodycolor">
 
 
-
     <div class="tabs is-large tabs is-centered">
         <ul>
             <li class="is-active"><a class="atitless">Juegos de pensamiento matemático</a></li>
             <li> <a href="./home-user-l.php" class="atitless">Juegos de Lecto - Escritura</a></li>
         </ul>
     </div>
+    <?php include '../inc/navbar.php'; ?>
     <div class="columnas">
         <div class="card" style="width: 18rem;">
             <img src="../images/suma.jpg" class="card-img-top" alt="imagen de suma">
@@ -48,8 +48,8 @@
     <div class="space-bottom"></div>
 
     <audio autoplay>
-    <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
-    </audio> 
+        <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
+    </audio>
 </body>
 
 </html>

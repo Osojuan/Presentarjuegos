@@ -22,7 +22,7 @@
   <div id="resultados">
     <p>Tiempo transcurrido: <span id="tiempo"></span> segundos</p>
     <p>Intentos realizados: <span id="intentos"></span></p>
-   </div>
+  </div>
 
   <section class="draggable-elements">
     <i class="fas fa-cat draggable" draggable="true" style="color: #ff6384;" id="cat"></i>
@@ -48,12 +48,12 @@
   <a href="../content/home-user-l.php" class="rounded-corner-button">Ir al inicio</a>
 
   <audio id="audioCorrecto" src="../audios/monedita.mpeg"></audio>
-    <audio id="audioPerdedor" src="../audios/erorrDIS.mpeg"></audio>
+  <audio id="audioPerdedor" src="../audios/erorrDIS.mpeg"></audio>
   <audio id="audioAplausos" src="../audios/mario.mpeg"></audio>
 
   <audio autoplay>
     <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
-    </audio> 
+  </audio>
 
 </body>
 

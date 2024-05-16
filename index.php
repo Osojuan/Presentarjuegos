@@ -1,3 +1,4 @@
+<? require './inc/session_start.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -23,19 +24,16 @@
                     <div class="card shadow-lg">
                         <div class="card-body p-5">
                             <h1 class="fs-4 card-title fw-bold mb-4">Login</h1>
-                            <form method="POST" class="" action=" " autocomplete="off">
+                            <form method="POST" class="" action="../db/login-controller.php" autocomplete="off">
 
                                 <div class="mb-3">
 
                                     <label class="mb-2 text-muted" for="email">CURP</label>
-                                    <input id="curp" type="text" class="form-control" name="curp" pattern="[A-Z0-9 ]{18} " value="" required autofocus>
+                                    <input id="curp" type="text" class="form-control" name="curp" pattern="[A-Z0-9 ]{18}" value="" required autofocus>
                                 </div>
 
                                 <div class=" d-flex align-items-center">
-                                    <div class="form-check">
-                                        <input type="checkbox" name="remember" id="remember" class="form-check-input">
 
-                                    </div>
                                     <button type="submit" name="btnLogin" class="button is-warning ms-auto">
                                         Login
                                     </button>

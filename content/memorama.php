@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
    <link rel="stylesheet" href="../css/stylesmemorama.css">
 </head>
 
 <body>
+
    <div id="stats">0 intentos</div>
    <div id="wrapper">
       <div id="game"></div>
    </div>
-  
+
 
    <script src="../js/scriptmemorama.js"></script>
 
@@ -28,8 +30,8 @@
    <audio id="audioCorrecto" src="../audios/monedita.mpeg"></audio>
 
    <audio autoplay>
-    <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
-    </audio> 
+      <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
+   </audio>
 
 
 </body>

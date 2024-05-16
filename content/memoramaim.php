@@ -86,8 +86,8 @@
     <audio id="audioCorrecto" src="../audios/monedita.mpeg"></audio>
 
     <audio autoplay>
-    <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
-    </audio> 
+        <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
+    </audio>
 
     <a href="../content/home-user-l.php" class="rounded-corner-button">Ir al inicio</a>
 
@@ -95,4 +95,3 @@
 
 
 </html>
-

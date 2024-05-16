@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
     <div class="container">
         <h2>¡Elije una operación matemática y resuelve 10!</h2>
         <section class="container-operadores">
@@ -52,9 +53,9 @@
 
     <audio id="audioCorrecto" src="../audios/monedita.mpeg"></audio>
     <audio id="audioPerdedor" src="../audios/erorrDIS.mpeg"></audio>
-    
+
     <audio autoplay>
-    <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
-    </audio> 
+        <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
+    </audio>
 
 </html>

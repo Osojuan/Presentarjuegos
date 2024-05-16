@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <link rel="stylesheet" href="../css/stylesAdivinalapalabra.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
     <section>
         <h2>¡Adivina el animal!</h2>
         <div id="palabra">
@@ -24,7 +25,7 @@
 
         <!-- Imágenes -->
         <div id="imagenPalabra"></div>
-         <img id="imagenAyuda" src="">
+        <img id="imagenAyuda" src="">
 
         <h3>Ayuda: <span id="ayuda"> El rey de la selva, tiene una majestuosa melena.</span> </h3>
         <h3>Intentos restantes: <span id="intentos">5</span></h3>
@@ -41,8 +42,8 @@
     <audio id="audioPerdedor" src="../audios/erorrDIS.mpeg"></audio>
 
     <audio autoplay>
-    <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
-    </audio> 
+        <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
+    </audio>
 
 
 </body>
