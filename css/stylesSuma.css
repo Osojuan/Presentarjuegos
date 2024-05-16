@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito';
+}
+body{
+	background-image: url('../images/princesas-disney.jpg'); 
+    background-size: cover;
+	text-align: center;
+	color: #262626;
+    font-size: 26px;
+}
+h1{
+	color: rgb(255, 255, 255);
+	padding: 50px;
+}
+.container{
+	background-color: #fdfd96;
+	max-width: 800px;
+	margin: auto;
+	border: 2px solid #000;
+	border-radius: 20px;
+	display: flex;
+	padding: 50px 0;
+}
+.izquierdo{
+	width: 70%;
+	font-size: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.derecha{
+	width: 30%;
+}
+.msj{
+	font-size: 40px;
+	height: 50px;
+}
+.derecha{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.opcion{
+	width: 80px;
+	height: 80px;
+	border: 1px solid  #000;
+	font-size: 50px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #000;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.opcion:hover{
+	background-color: #fdcae1;
+    color: rgb(0, 0, 0);
+
+}
+.rounded-corner-button {
+    position: absolute;
+    top: 10px; /* Espacio desde arriba */
+    right: 10px; /* Espacio desde la derecha */
+    padding: 10px 20px; /* Tamaño del botón */
+    border: none;
+    border-radius: 10px; /* Esquinas ovaladas */
+    background-color:#02bfa4; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    font-size: 26px; /* Tamaño del texto */
+    cursor: pointer;
+}
+
+.swal2-popup {
+    background-color: #f0f0f0; /* Cambia el color de fondo */
+}
+
+.swal2-title {
+    color: #333333; /* Cambia el color del título */
+}
+
+.swal2-content {
+    color: #666666; /* Cambia el color del texto */
+}

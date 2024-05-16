@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1000px;
+    margin: auto;
+}
+
+figure,
+figure img {
+    display: inline-block;
+    width: 100%;
+}
+
+figure {
+    position: relative;
+    transition: all ease .5s;
+    transform-style: preserve-3d;
+    transform: perspective(600px) rotateY(0deg);
+    cursor: pointer;
+    box-shadow: 3px 3px 16px rgb(0, 0, 0, 0.6);
+}
+
+figure::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0);
+    transition: 0.3s all ease;
+}
+
+figure:hover:after {
+    background: rgba(255, 255, 255, 0.137);
+}
+
+figure.opened {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+figure .back {
+    display: block;
+    backface-visibility: hidden;
+}
+
+figure .searched-image {
+    position: absolute;
+    top: 0;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    height: 100%;
+    overflow: hidden;
+}
+
+.rounded-corner-button {
+    position: absolute;
+    top: 10px; /* Espacio desde arriba */
+    right: 10px; /* Espacio desde la derecha */
+    padding: 10px 20px; /* Tamaño del botón */
+    border: none;
+    border-radius: 10px; /* Esquinas ovaladas */
+    background-color:#02bfa4; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer;
+}
+
+/* Estilo personalizado para la ventana emergente */
+.mi-estilo-customizado .swal2-popup {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo personalizado para el botón de confirmación */
+  .mi-boton-customizado {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .mi-boton-customizado:hover {
+    background-color: #0056b3;
+  }
+  
