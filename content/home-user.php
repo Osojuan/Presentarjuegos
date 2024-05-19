@@ -19,8 +19,11 @@
             <li class="is-active"><a class="atitless">Juegos de pensamiento matemático</a></li>
             <li> <a href="./home-user-l.php" class="atitless">Juegos de Lecto - Escritura</a></li>
         </ul>
+
     </div>
+    <?php echo  $_SESSION['name'] ?>
     <?php include '../inc/navbar.php'; ?>
+
     <div class="columnas">
         <div class="card" style="width: 18rem;">
             <img src="../images/suma.jpg" class="card-img-top" alt="imagen de suma">

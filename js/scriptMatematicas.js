@@ -165,6 +165,7 @@ function finalizarJuego() {
 
     // Mostrar la alerta después de una pequeña pausa
     setTimeout(() => {
+        
         Swal.fire({
             title: '¡Felicidades, juego terminado!',
             text: `Tiempo transcurrido: ${elapsedTime.toFixed(2)} segundos`,

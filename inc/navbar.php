@@ -13,13 +13,14 @@
         <div class="navbar-end">
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                    <strong>** ** </strong>
+
+                    <strong>** Cerrar Sesión ** </strong>
                 </a>
                 <div class="navbar-dropdown is-boxed">
 
                     <hr class="navbar-divider">
                     <a class="navbar-item" href="../content/logout.php" id="btn_exit">
-                        Exit
+                        Salir
                     </a>
 
                 </div>
