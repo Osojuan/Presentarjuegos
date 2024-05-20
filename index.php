@@ -44,6 +44,7 @@
                     </div>
                     <div class="text-center mt-5 text-muted">
                         Copyright &copy; 2024 &mdash; A.L.A.D A.C.
+
                     </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@
     </section>
     <!-- 
     <audio autoplay loop>
-        <source src="./audios/shrek-somebodycena.mp3" type="audio/mp3">
+        <source src="../audios/fondoinstrumental.mpeg" type="audio/mpeg">
     </audio> -->
 
 </body>
